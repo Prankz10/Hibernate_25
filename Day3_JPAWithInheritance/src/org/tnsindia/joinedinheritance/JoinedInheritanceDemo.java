@@ -23,7 +23,7 @@ public class JoinedInheritanceDemo {
 		s1.setPrice(2000.60);
 		em.persist(s1);
 		
-		//create a deptartment
+		//create a department
 		
 		SalesDepartment d=new SalesDepartment();
 		d.setSales_id(12);
