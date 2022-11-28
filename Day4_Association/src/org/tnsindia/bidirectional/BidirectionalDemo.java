@@ -29,7 +29,7 @@ public class BidirectionalDemo {
 		emp.setEmp_name("Pranit Jadhav");
 		emp.setSalary(50000);
 		
-		//crete an emp1;
+		//create an emp1;
 		Employee emp1=new Employee();
 		emp1.setEmp_id(193);
 		emp1.setEmp_name("Praneet");
