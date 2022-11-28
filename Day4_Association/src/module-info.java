@@ -5,4 +5,5 @@ module Day4_Association {
 	requires jdk.javadoc;
 	requires jdk.jpackage;
 	requires dom4j;
+	requires java.persistence;
 }
