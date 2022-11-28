@@ -56,4 +56,10 @@ public class BookDaoImpl implements BookDao{
 		List<Book>booklist=query.getResultList();
 		return booklist;
 	}
+
+	@Override
+	public List<Book> getBookByTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
