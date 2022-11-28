@@ -12,8 +12,7 @@ public class Client {
 		Scanner s=new Scanner(System.in);
 		
 		BookService service=new BookServiceImpl();
-		
-		
+			
 		System.out.println("Listing book with Specific ID required: ");
 		System.out.println("Enter the Book ID number:");
 		int id=s.nextInt();
@@ -33,7 +32,6 @@ public class Client {
 		System.out.println("Listing book with Specific price range are : ");
 		for(Book book:service.getBookInPriceRange(300.0, 600.0))
 			System.out.println(book);
-		
 		
 		System.out.println("Listing all the books needed ");
 		System.out.println(service.getAllBooks());

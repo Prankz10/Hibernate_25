@@ -28,7 +28,7 @@ public class BookDaoImpl implements BookDao{
 	public List<Book> getBookByTitle(String title) {
 		String str="SELECT book FROM Book book WHERE book.title LIKE :ptitle";
 		TypedQuery<Book>query=em.createQuery(str,Book.class);
-		query.setParameter("ptitle", +title);
+		query.setParameter("ptitle", "%"+title+"%");
 		return query.getResultList();
 	}
 
