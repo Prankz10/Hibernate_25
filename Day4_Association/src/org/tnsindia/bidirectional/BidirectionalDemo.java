@@ -23,7 +23,7 @@ public class BidirectionalDemo {
 		department1.setId(13131);
 		department1.setName("Marketing");
 		
-		//crete an emp1;
+		//create an emp1;
 		Employee emp=new Employee();
 		emp.setEmp_id(163);
 		emp.setEmp_name("Pranit Jadhav");
